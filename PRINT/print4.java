@@ -1,7 +1,7 @@
 public class print4 {
     public static void main(String[] args) {
-        String nome = "João";
-        int idade = 30;
+        String nome = "Kevin";
+        int idade = 34;
         double altura = 1.75;
 
         // Usando printf para imprimir uma mensagem formatada
