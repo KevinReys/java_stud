@@ -32,7 +32,7 @@ public class scn3 {
             res = "Recuperação";
         }else{  
             res="Reprovado";
-       }
+        }
 
 System.out.printf("Aluno %s foi %d, com nota %d",nome,res,soma);
 
