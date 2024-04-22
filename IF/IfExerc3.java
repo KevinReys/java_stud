@@ -15,7 +15,7 @@ public class IfExerc3 {
             diferenca = numero2 - numero1;
         }
 
-        System.out.println("A diferença entre dois números");
+        System.out.println("A diferença entre: ");
         System.out.println("Numero 1: " + numero1);
         System.out.println("Numero 2: " + numero2);
         System.out.println("Diferenca: " + diferenca);
