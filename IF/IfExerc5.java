@@ -8,9 +8,9 @@ public class IfExerc5 {
         String name = objLogin.nextLine();
 
         System.out.println("Enter your password");
-        String senha = objLogin.nextLine();
+        String password = objLogin.nextLine();
 
-        if (name.equals("Kevin") && senha.equals("130290")) {
+        if (name.equals("Kevin") && password.equals("130290")) {
             System.out.printf("User %s successfully logged in!\n", name);
         } else {
             System.out.println("Invalid user or password!");
