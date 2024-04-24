@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class calculator {
     public static void main(String[] args) {
 
-        double number1, number2, result;
+        int number1, number2, result;
         int option;
 
         option = Integer.parseInt(JOptionPane.showInputDialog(null,
@@ -20,25 +20,25 @@ public class calculator {
         switch (option) {
             case 1: {
                 result = number1 + number2;
-                System.out.printf("%f + %f = %f", number1, number2, result);
+                System.out.printf("%d + %d = %d", number1, number2, result);
             }
                 break;
 
             case 2: {
                 result = number1 - number2;
-                System.out.printf("%f - %f = %f", number1, number2, result);
+                System.out.printf("%d - %d = %d", number1, number2, result);
             }
                 break;
 
             case 3: {
                 result = number1 * number2;
-                System.out.printf("%f * %f = %f", number1, number2, result);
+                System.out.printf("%d * %d = %d", number1, number2, result);
             }
                 break;
 
             case 4: {
                 result = number1 / number2;
-                System.out.printf("%f + %f = %f", number1, number2, result);
+                System.out.printf("%d / %d = %d", number1, number2, result);
             }
                 break;
 
